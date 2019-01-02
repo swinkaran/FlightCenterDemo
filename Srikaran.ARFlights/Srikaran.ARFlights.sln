@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Data.Reader", "Srikaran.ARFlights.Data.Reader\Srikaran.ARFlights.Data.Reader.csproj", "{0068D848-BDBE-4BE6-8222-7955C0428267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Data.Writer", "Srikaran.ARFlights.Data.Writer\Srikaran.ARFlights.Data.Writer.csproj", "{08E30A64-67DB-4E5A-80A5-261449909D72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.DomainEntities", "Srikaran.ARFlights.DomainEntities\Srikaran.ARFlights.DomainEntities.csproj", "{301EFE2C-CA8D-4EBE-9939-397BD265ABAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Service", "Srikaran.ARFlights.Service\Srikaran.ARFlights.Service.csproj", "{E199D16E-3CEB-4DCC-A9CB-6E2E5C97C3DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Web", "Srikaran.ARFlights.Web\Srikaran.ARFlights.Web.csproj", "{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0068D848-BDBE-4BE6-8222-7955C0428267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0068D848-BDBE-4BE6-8222-7955C0428267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0068D848-BDBE-4BE6-8222-7955C0428267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0068D848-BDBE-4BE6-8222-7955C0428267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E30A64-67DB-4E5A-80A5-261449909D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E30A64-67DB-4E5A-80A5-261449909D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E30A64-67DB-4E5A-80A5-261449909D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E30A64-67DB-4E5A-80A5-261449909D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301EFE2C-CA8D-4EBE-9939-397BD265ABAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301EFE2C-CA8D-4EBE-9939-397BD265ABAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301EFE2C-CA8D-4EBE-9939-397BD265ABAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301EFE2C-CA8D-4EBE-9939-397BD265ABAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E199D16E-3CEB-4DCC-A9CB-6E2E5C97C3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E199D16E-3CEB-4DCC-A9CB-6E2E5C97C3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E199D16E-3CEB-4DCC-A9CB-6E2E5C97C3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E199D16E-3CEB-4DCC-A9CB-6E2E5C97C3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B9BB479-D642-4118-A7D8-5D6D2F846CB1}
+	EndGlobalSection
+EndGlobal

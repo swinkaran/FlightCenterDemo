@@ -1,0 +1,36 @@
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csprojAssemblyReference.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CoreCompileInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfoInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfo.cs
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.deps.json
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CopyComplete
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.deps.json
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csprojAssemblyReference.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CoreCompileInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfoInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfo.cs
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CopyComplete
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.deps.json
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csprojAssemblyReference.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CoreCompileInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfoInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.AssemblyInfo.cs
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.csproj.CopyComplete
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Reader\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Reader.pdb

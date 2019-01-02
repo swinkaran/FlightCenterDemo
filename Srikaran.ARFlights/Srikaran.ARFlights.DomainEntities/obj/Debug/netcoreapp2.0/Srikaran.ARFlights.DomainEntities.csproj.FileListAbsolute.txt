@@ -1,0 +1,27 @@
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.deps.json
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csproj.CoreCompileInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfoInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfo.cs
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csprojAssemblyReference.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.deps.json
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csprojAssemblyReference.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfo.cs
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.deps.json
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csprojAssemblyReference.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.AssemblyInfo.cs
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.DomainEntities\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb

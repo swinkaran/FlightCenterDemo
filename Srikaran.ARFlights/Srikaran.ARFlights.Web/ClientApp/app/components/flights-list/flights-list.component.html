@@ -1,0 +1,35 @@
+﻿
+<div class="jumbotron">
+    <h1 class="display-4">Acme flight routes</h1>
+    <hr class="my-4">
+</div>
+
+<p>List of flight routes</p>
+
+<p *ngIf="!flights"><em>Loading please wait...</em></p>
+
+<p>No of flights : {{flightsCount}}</p>
+
+
+<div *ngFor="let flight of flights">
+    <div class="jumbotron">
+
+        <h3 class="display-4">{{flight.flightNo}}</h3>
+
+        <div class="card-footer text-muted">
+            <div class="alert alert-info" role="alert">
+                Flying From : {{ flight.departureCity }}
+            </div>
+            <div class="alert alert-warning" role="alert">
+                Flying From : {{ flight.arrivalCity }}
+            </div>
+        </div>
+
+        <h5 class="card-title">Departure Time : {{flight.startTime}}</h5>
+        <h5 class="card-title">Arrival Time : {{flight.endTime}}</h5>
+        <a [routerLink]="['/flights', flight.flightNo]">
+            <span class="btn btn-primary">Search for flights</span>
+        </a>
+
+    </div>
+</div>

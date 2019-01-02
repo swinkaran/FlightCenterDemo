@@ -1,0 +1,78 @@
+﻿
+<div class="jumbotron">
+    <h3 class="display-4">Searching for booking</h3>
+    <br />
+    <form>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Search by</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01" [(ngModel)]="search_key" name="searchKey">
+                <option selected>Choose...</option>
+                <option value="1">Flight no</option>
+                <option value="2">Passenger name</option>
+                <option value="3">Booking date</option>
+                <option value="4">Departure city</option>
+                <option value="5">Arrival city</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Search for</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+                   [(ngModel)]="search_text" name="searchText">
+        </div>
+    </form>
+
+    <hr class="my-4">
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" (click)="onClickSearch()" role="button">Search</a>
+    </p>
+
+    <div class="alert alert-warning" role="alert">
+        <p>Searching for <strong>{{search_by}}</strong> with the value <strong>{{search_text}}</strong></p>
+    </div>
+</div>
+
+<div class="animated fadeIn">
+    <!--/.row-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Search results found :  {{resultsCount}}
+                </div>
+
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
+                            <tr>
+                                <th>Booking Id</th>
+                                <th>Passenger name</th>
+                                <th>Flight No</th>
+                                <th>Travelling On</th>
+                                <th>Flying From</th>
+                                <th>Flying To</th>
+                            </tr>
+                        </thead>
+                        <tbody *ngFor="let booking of bookings">
+                            <tr>
+                                <td>{{booking.bookingId}}</td>
+                                <td>{{booking.passengerName}}</td>
+                                <td>{{booking.flightNo}}</td>
+                                <td>{{booking.bookingDate}}</td>
+                                <td>{{booking.departureCity}}</td>
+                                <td>{{booking.arrivalCity}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--/.col-->
+    </div>
+    <!--/.row-->
+</div>

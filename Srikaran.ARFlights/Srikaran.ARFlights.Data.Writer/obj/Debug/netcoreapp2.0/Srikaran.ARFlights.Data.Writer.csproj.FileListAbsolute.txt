@@ -1,0 +1,42 @@
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.deps.json
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.json
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.dev.json
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csprojAssemblyReference.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CoreCompileInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfoInputs.cache
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfo.cs
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CopyComplete
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+c:\users\broswebs-desk\documents\visual studio 2017\Projects\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.deps.json
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.json
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.dev.json
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csprojAssemblyReference.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CoreCompileInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfoInputs.cache
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfo.cs
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CopyComplete
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+C:\Users\srikarans\Documents\GitHub\FlightCenter\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.deps.json
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.json
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.runtimeconfig.dev.json
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\bin\Debug\netcoreapp2.0\Srikaran.ARFlights.DomainEntities.pdb
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csprojAssemblyReference.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CoreCompileInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfoInputs.cache
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.AssemblyInfo.cs
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.csproj.CopyComplete
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.dll
+C:\Users\Broswebs-Desk\Documents\GitHub\FlightCenterDemo\Srikaran.ARFlights\Srikaran.ARFlights.Data.Writer\obj\Debug\netcoreapp2.0\Srikaran.ARFlights.Data.Writer.pdb

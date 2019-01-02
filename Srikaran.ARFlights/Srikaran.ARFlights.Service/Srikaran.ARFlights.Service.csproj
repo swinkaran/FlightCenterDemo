@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Queries\allflights.csv" />
+    <None Remove="Queries\appsettings.Development.json" />
+    <None Remove="Queries\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Srikaran.ARFlights.Data.Reader\Srikaran.ARFlights.Data.Reader.csproj" />
+    <ProjectReference Include="..\Srikaran.ARFlights.Data.Writer\Srikaran.ARFlights.Data.Writer.csproj" />
+    <ProjectReference Include="..\Srikaran.ARFlights.DomainEntities\Srikaran.ARFlights.DomainEntities.csproj" />
+  </ItemGroup>
+
+</Project>
