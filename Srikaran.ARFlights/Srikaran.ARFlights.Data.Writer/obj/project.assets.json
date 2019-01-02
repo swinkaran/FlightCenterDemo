@@ -3571,23 +3571,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Broswebs-Desk\\.nuget\\packages\\": {},
+    "C:\\Users\\srikarans\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Broswebs-Desk\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\Srikaran.ARFlights.Data.Writer.csproj",
+      "projectUniqueName": "C:\\Users\\srikarans\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\Srikaran.ARFlights.Data.Writer.csproj",
       "projectName": "Srikaran.ARFlights.Data.Writer",
-      "projectPath": "C:\\Users\\Broswebs-Desk\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\Srikaran.ARFlights.Data.Writer.csproj",
-      "packagesPath": "C:\\Users\\Broswebs-Desk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Broswebs-Desk\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\obj\\",
+      "projectPath": "C:\\Users\\srikarans\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\Srikaran.ARFlights.Data.Writer.csproj",
+      "packagesPath": "C:\\Users\\srikarans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\srikarans\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.Data.Writer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Broswebs-Desk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\srikarans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3600,8 +3600,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Broswebs-Desk\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.DomainEntities\\Srikaran.ARFlights.DomainEntities.csproj": {
-              "projectPath": "C:\\Users\\Broswebs-Desk\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.DomainEntities\\Srikaran.ARFlights.DomainEntities.csproj"
+            "C:\\Users\\srikarans\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.DomainEntities\\Srikaran.ARFlights.DomainEntities.csproj": {
+              "projectPath": "C:\\Users\\srikarans\\Documents\\GitHub\\FlightCenterDemo\\Srikaran.ARFlights\\Srikaran.ARFlights.DomainEntities\\Srikaran.ARFlights.DomainEntities.csproj"
             }
           }
         }

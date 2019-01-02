@@ -12,11 +12,13 @@ export class FlightSearchComponent implements OnChanges, OnInit {
     public flightNo: string = "";
     private baseApiUrl: string = "";
     private clientHttp: Http;
-    public flight: Route;
+    public flight_route: Route;
 
     //Search variables
-    public search_key: string = "";
-    public search_text: string = "";
+    public search_noOxPax: string = "";
+    public search_date_from: string = "";
+    public search_date_to: string = "";
+    public flights: Flight[];
 
     constructor(private route: ActivatedRoute, http: Http, @Inject('BASE_URL') baseUrl: string) {
         this.baseApiUrl = baseUrl;
@@ -25,22 +27,24 @@ export class FlightSearchComponent implements OnChanges, OnInit {
         this.flightNo = this.route.snapshot.paramMap.get('id');
 
         this.clientHttp.get(this.baseApiUrl + 'api/flights/' + this.flightNo).subscribe(result => {
-            this.flight = result.json() as Route;
+            this.flight_route = result.json() as Route;
         }, error => console.error(error));
     }
     
     onClickSearch() {
-    
+        this.clientHttp.get(this.baseApiUrl + 'api/flights/' + this.flightNo + '/02-01-2019/02-10-2019').subscribe(result => {
+            this.flights = result.json() as Flight[];
+        }, error => console.error(error));
     }
 
     ngOnChanges(): void {
-        //this.starWidth = this.movieId * 86 / 5;
+        
     }
 
     public ngOnInit() {
         this.flightNo = this.route.snapshot.paramMap.get('id');
         this.clientHttp.get(this.baseApiUrl + 'api/flights/' + this.flightNo).subscribe(result => {
-            this.flight = result.json() as Route;
+            this.flight_route = result.json() as Route;
         }, error => console.error(error));
     }
 }
@@ -51,6 +55,13 @@ interface Route {
     endTime: string;
     departureCity: string;
     arrivalCity: string;
+    passengerCapacity: number;
+}
+
+interface Flight {
+    flightNo: string;
+    dateToFly: Date;
+    seatsLeft: number;
     passengerCapacity: number;
 }
 

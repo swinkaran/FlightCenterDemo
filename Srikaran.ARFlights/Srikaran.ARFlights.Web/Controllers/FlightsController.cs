@@ -66,12 +66,12 @@ namespace Srikaran.ARFlights.Web.Controllers
                     IList<Booking> bookings = _queries.GetAllBookings().Where(d => (d.BookingDate >= start && d.BookingDate <= end) && d.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).ToList();
                     Flight flight = _queries.GetFlightById(flightNo);
 
-                    for (DateTime dt = start; dt <= end; dt.AddDays(1))
+                    for (DateTime dt = start; dt <= end; dt = dt.AddDays(1))
                     {
                         ViewModels.VMFlightsToBook f = new ViewModels.VMFlightsToBook() { FlightNo = flightNo, DateToFly = dt, SeatsLeft = flight.PassengerCapacity - (bookings.Where(b => b.BookingDate == dt).Count()) };
                         FlightsToBook.Add(f);
                     }
-                    return Ok(_queries.GetFlightsByDates(start, end));
+                    return Ok(FlightsToBook);
                 }
             }
             catch (Exception ex)

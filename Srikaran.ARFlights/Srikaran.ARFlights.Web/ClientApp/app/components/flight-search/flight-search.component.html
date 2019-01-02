@@ -3,22 +3,29 @@
     <br />
     <form>
         <div class="form-group row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Departure city</label>
+            <label for="departureCity" class="col-sm-2 col-form-label">Departure city</label>
             <div class="col-sm-10">
-                <input class="form-control" type="text" placeholder="{{flight.departureCity}}" readonly>
+                <input class="form-control" id="departureCity" type="text" placeholder="{{flight_route.departureCity}}" readonly>
             </div>
         </div>
         <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Arrival city</label>
+            <label for="arrivalCity" class="col-sm-2 col-form-label">Arrival city</label>
             <div class="col-sm-10">
-                <input class="form-control" type="text" placeholder="{{flight.arrivalCity}}" readonly>
+                <input class="form-control" id="arrivalCity" type="text" placeholder="{{flight_route.arrivalCity}}" readonly>
             </div>
         </div>
 
         <div class="form-group row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Departure city</label>
             <div class="col-sm-10">
-                <input class="form-control" type="date" placeholder="{{flight.departureCity}}">
+                <input class="form-control" type="date" placeholder="{{search_noOxPax}}" [(ngModel)]="search_noOxPax">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label for="paxNo" class="col-sm-2 col-form-label">No of Pax</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="paxNo" type="number" [(ngModel)]="search_date_from">
             </div>
         </div>
     </form>
@@ -30,9 +37,18 @@
 </div>
 
 <h3>Search for Flights</h3>
-<h3>Flight no : {{ flightNo }}</h3>
-<h4>
-    
-<p>Looking for flights {{Route.flightNo
-    }}</p>
-    <p>Available seats {{Route.passengerCapacity}}</p>
+<h3>Flight route : {{flight_route.departureCity}} To {{flight_route.arrivalCity}}</h3>
+
+<div *ngFor="let flight of flights">
+    <div class="panel panel-success">
+        <div class="panel-heading">Date : {{flight.dateToFly}}</div>
+        <div class="panel-body">
+            Seats left : {{flight.seatsLeft}} of ({{flight.passengerCapacity}})
+        </div>
+        <div class="panel-footer" style="text-align:right">
+            <a [routerLink]="['/flights', flight.flightNo]">
+                <span class="btn btn-primary">Book now</span>
+            </a>
+        </div>
+    </div>
+</div>

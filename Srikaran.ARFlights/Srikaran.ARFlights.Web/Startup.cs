@@ -72,6 +72,21 @@ namespace Srikaran.ARFlights.Web
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
             });
+
+            UpdateDatabase(app);
+        }
+
+        private void UpdateDatabase(IApplicationBuilder app)
+        {
+            using (var serviceScope = app.ApplicationServices
+            .GetRequiredService<IServiceScopeFactory>()
+            .CreateScope())
+            {
+                using (var context = serviceScope.ServiceProvider.GetService<FlightsDBContext>())
+                {
+                    context.Database.Migrate();
+                }
+            }
         }
     }
 }

@@ -32,8 +32,6 @@ export class BookingsListComponent {
     }
 
     onClickSearch() {
-
-        
         switch (this.search_key) {
             case "1": {
                 this.search_by = "Flight no";
