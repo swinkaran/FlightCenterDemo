@@ -19,6 +19,7 @@ export class FlightSearchComponent implements OnChanges, OnInit {
     public search_date_from: string = "";
     public search_date_to: string = "";
     public flights: Flight[];
+    public search_numberOfPax: string = "";
 
     constructor(private route: ActivatedRoute, http: Http, @Inject('BASE_URL') baseUrl: string) {
         this.baseApiUrl = baseUrl;
@@ -30,15 +31,15 @@ export class FlightSearchComponent implements OnChanges, OnInit {
             this.flight_route = result.json() as Route;
         }, error => console.error(error));
     }
-    
+
     onClickSearch() {
-        this.clientHttp.get(this.baseApiUrl + 'api/flights/' + this.flightNo + '/02-01-2019/02-10-2019').subscribe(result => {
+        this.search_numberOfPax = this.search_noOxPax;
+        this.clientHttp.get(this.baseApiUrl + 'api/flights/' + this.flightNo + '/' + this.search_date_from + '/' + this.search_date_to).subscribe(result => {
             this.flights = result.json() as Flight[];
         }, error => console.error(error));
     }
 
     ngOnChanges(): void {
-        
     }
 
     public ngOnInit() {

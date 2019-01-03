@@ -30,7 +30,7 @@ namespace Srikaran.ARFlights.Web.Tests
         {
             contextBuilder = InitializeDBContext();
             _queries = new Service.Queries.QueriesService(contextBuilder);
-            flightsController = new Controllers.FlightsController(_queries);
+            flightsController = new FlightsController(_queries);
             flights = _queries.GetAllFlights();
         }
 

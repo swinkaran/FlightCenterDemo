@@ -12,11 +12,10 @@ export class FlightsListComponent {
     public flightsCount: number = 7;
 
     constructor(http: Http, @Inject('BASE_URL') baseUrl: string) {
-
-        this.flightsCount = 6;
-
+        
         http.get(baseUrl + 'api/flights').subscribe(result => {
             this.flights = result.json() as Flight[];
+            this.flightsCount = this.flights.length;
         }, error => console.error(error));
 
         //this.flightsCount = this.flights.length;
