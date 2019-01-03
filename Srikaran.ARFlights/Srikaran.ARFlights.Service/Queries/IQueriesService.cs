@@ -9,14 +9,9 @@ namespace Srikaran.ARFlights.Service.Queries
     {
         IList<Flight> GetAllFlights();
         Flight GetFlightById(string flightNo);
-        IList<Flight> GetFlightsByDates(DateTime start, DateTime end);
-
-
+        
         IList<Booking> GetAllBookings();
-        Booking GetBookingById(int id);
-        IList<Booking> GetBookingByPassengerName(string passengerName);
-        IList<Booking> GetBookingByDepartureCity(string departureCity);
-        IList<Booking> GetBookingByArrivalCity(string arrivalCity);
-        IList<Booking> GetBookingByDate(DateTime bookingDate);
+        IList<Booking> GetBookingsByFlighNo(string flightNo);
+        IList<Booking> FilterBookingsByDateRange(IList<Booking> bookings, DateTime start, DateTime end);
     }
 }

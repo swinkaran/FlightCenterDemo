@@ -63,12 +63,14 @@ namespace Srikaran.ARFlights.Web.Controllers
                 {
                     List<ViewModels.VMFlightsToBook> FlightsToBook = new List<ViewModels.VMFlightsToBook>();
 
-                    IList<Booking> bookings = _queries.GetAllBookings().Where(d => (d.BookingDate >= start && d.BookingDate <= end) && d.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).ToList();
+                    IList<Booking> filteredBookings = _queries.GetBookingsByFlighNo(flightNo);
+                    filteredBookings = _queries.FilterBookingsByDateRange(filteredBookings, start, end);
+                    
                     Flight flight = _queries.GetFlightById(flightNo);
 
                     for (DateTime dt = start; dt <= end; dt = dt.AddDays(1))
                     {
-                        ViewModels.VMFlightsToBook f = new ViewModels.VMFlightsToBook() { FlightNo = flightNo, DateToFly = dt, SeatsLeft = flight.PassengerCapacity - (bookings.Where(b => b.BookingDate == dt).Count()) };
+                        ViewModels.VMFlightsToBook f = new ViewModels.VMFlightsToBook() { FlightNo = flightNo, DateToFly = dt, PassengerCapacity=flight.PassengerCapacity, SeatsLeft = this.GetSeatsLeft(flight, filteredBookings, dt) };
                         FlightsToBook.Add(f);
                     }
                     return Ok(FlightsToBook);
@@ -78,6 +80,14 @@ namespace Srikaran.ARFlights.Web.Controllers
             {
                 return NoContent();
             }
+        }
+
+        [NonAction]
+        private int GetSeatsLeft(Flight flight, IList<Booking> bookings, DateTime date)
+        {
+            int SeatsLeft = 0;
+            SeatsLeft = flight.PassengerCapacity - bookings.Where(b => b.BookingDate == date).Count();
+            return SeatsLeft;
         }
     }
 }

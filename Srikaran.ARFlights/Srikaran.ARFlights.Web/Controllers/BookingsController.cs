@@ -63,6 +63,21 @@ namespace Srikaran.ARFlights.Web.Controllers
             }
         }
 
+        // GET api/bookings/date
+        [Route("[action]/{date}")]
+        [HttpGet("{id}")]
+        public IActionResult date(DateTime date)
+        {
+            try
+            {
+                return Ok(VMAllBookings.Where(b => b.BookingDate == date).ToList());
+            }
+            catch (Exception ex)
+            {
+                return NoContent();
+            }
+        }
+
         // GET api/bookings/flight/qa11
         [Route("[action]/{name}")]
         [HttpGet("{id}")]
@@ -70,7 +85,10 @@ namespace Srikaran.ARFlights.Web.Controllers
         {
             try
             {
-                return Ok(VMAllBookings.Where(b => b.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).ToList());
+                if (flightNo == "")
+                    return BadRequest();
+                else
+                    return Ok(VMAllBookings.Where(b => b.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).ToList());
             }
             catch (Exception ex)
             {
@@ -92,7 +110,7 @@ namespace Srikaran.ARFlights.Web.Controllers
                 return NoContent();
             }
         }
-        
+
         // GET api/bookings/passenger/john
         [Route("[action]/{criteria}/{city}")]
         [HttpGet]

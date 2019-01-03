@@ -43,16 +43,6 @@ namespace Srikaran.ARFlights.Service.Queries
         {
             return this.GetAllFlights().Where(f => f.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).First();
         }
-
-        public IList<Flight> GetFlightsByDates(DateTime start, DateTime end)
-        {
-
-            for (DateTime dt = start; dt <= end; dt.AddDays(1))
-            {
-
-            }
-            throw new NotImplementedException();
-        }
         #endregion
 
         #region Bookings
@@ -62,32 +52,15 @@ namespace Srikaran.ARFlights.Service.Queries
             bookings = context.Bookings.ToList();
             return bookings;
         }
-
-        public Booking GetBookingById(int id)
+        
+        public IList<Booking> GetBookingsByFlighNo(string flightNo)
         {
-            Booking booking;
-            booking = context.Bookings.Where(b => b.BookingId == id).First();
-            return booking;
+            return context.Bookings.Where(b => b.FlightNo.Equals(flightNo, StringComparison.CurrentCultureIgnoreCase)).ToList();
         }
 
-        public IList<Booking> GetBookingByPassengerName(string passengerName)
+        public IList<Booking> FilterBookingsByDateRange(IList<Booking> bookings, DateTime start, DateTime end)
         {
-            throw new NotImplementedException();
-        }
-
-        public IList<Booking> GetBookingByDepartureCity(string departureCity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IList<Booking> GetBookingByArrivalCity(string arrivalCity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IList<Booking> GetBookingByDate(DateTime bookingDate)
-        {
-            return context.Bookings.Where(b => b.BookingDate.ToShortDateString() == bookingDate.ToShortDateString()).ToList();
+            return bookings.Where(d => (d.BookingDate >= start && d.BookingDate <= end)).ToList();
         }
         #endregion
     }

@@ -45,6 +45,7 @@ export class BookingsListComponent {
             }
             case "3": {
                 this.search_by = "Booking date";
+                this.api_Url = "api/bookings/date/";
                 break;
             }
             case "4": {

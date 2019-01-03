@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Service"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srikaran.ARFlights.Web", "Srikaran.ARFlights.Web\Srikaran.ARFlights.Web.csproj", "{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srikaran.ARFlights.Web.Tests", "Srikaran.ARFlights.Web.Tests\Srikaran.ARFlights.Web.Tests.csproj", "{AB643FDD-D5F7-411D-A2A3-7B0A0301EDCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC14F6E-5679-4718-9B4A-B6C14D4D5333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB643FDD-D5F7-411D-A2A3-7B0A0301EDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB643FDD-D5F7-411D-A2A3-7B0A0301EDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB643FDD-D5F7-411D-A2A3-7B0A0301EDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB643FDD-D5F7-411D-A2A3-7B0A0301EDCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
