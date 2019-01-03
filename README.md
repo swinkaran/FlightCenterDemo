@@ -1,4 +1,4 @@
-# ## Flight Center Demo
+# Flight Center Demo
 Demo application using .Net Core, Angular 6, CQRS, EF Core 2. A test application developed illustrate .Net tools
 
 ## Design and Architecture
