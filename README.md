@@ -15,3 +15,4 @@ Demo application using .Net Core, Angular 6, CQRS, EF Core 2. A test application
 ## How to run the application
 * Download the solution from the GitHub
 * Edit the connection string _Srikaran.ARFlights.Web -> appsettings.json_. This will pre-fill the database with sample records
+* All the sample bookings are during the date range of 01-02-2019 to 12-02-2019.
